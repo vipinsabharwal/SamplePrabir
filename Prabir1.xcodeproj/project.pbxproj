@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8885C70156CD99900503BA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8885C6F156CD99900503BA0 /* UIKit.framework */; };
+		D8885C72156CD99900503BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8885C71156CD99900503BA0 /* Foundation.framework */; };
+		D8885C74156CD99900503BA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8885C73156CD99900503BA0 /* CoreGraphics.framework */; };
+		D8885C7A156CD99900503BA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8885C78156CD99900503BA0 /* InfoPlist.strings */; };
+		D8885C7C156CD99A00503BA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8885C7B156CD99A00503BA0 /* main.m */; };
+		D8885C80156CD99A00503BA0 /* Prabir1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8885C7F156CD99A00503BA0 /* Prabir1AppDelegate.m */; };
+		D8885C83156CD99A00503BA0 /* Prabir1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8885C82156CD99A00503BA0 /* Prabir1ViewController.m */; };
+		D8885C86156CD99A00503BA0 /* Prabir1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8885C84156CD99A00503BA0 /* Prabir1ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8885C6B156CD99900503BA0 /* Prabir1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prabir1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8885C6F156CD99900503BA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8885C71156CD99900503BA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8885C73156CD99900503BA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8885C77156CD99900503BA0 /* Prabir1-Info.plist */ = {isa = PBXFileReference; path = "Prabir1-Info.plist"; sourceTree = "<group>"; };
+		D8885C79156CD99900503BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8885C7B156CD99A00503BA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8885C7D156CD99A00503BA0 /* Prabir1-Prefix.pch */ = {isa = PBXFileReference; path = "Prabir1-Prefix.pch"; sourceTree = "<group>"; };
+		D8885C7E156CD99A00503BA0 /* Prabir1AppDelegate.h */ = {isa = PBXFileReference; path = Prabir1AppDelegate.h; sourceTree = "<group>"; };
+		D8885C7F156CD99A00503BA0 /* Prabir1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prabir1AppDelegate.m; sourceTree = "<group>"; };
+		D8885C81156CD99A00503BA0 /* Prabir1ViewController.h */ = {isa = PBXFileReference; path = Prabir1ViewController.h; sourceTree = "<group>"; };
+		D8885C82156CD99A00503BA0 /* Prabir1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prabir1ViewController.m; sourceTree = "<group>"; };
+		D8885C85156CD99A00503BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Prabir1ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8885C68156CD99900503BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8885C70156CD99900503BA0 /* UIKit.framework in Frameworks */,
+				D8885C72156CD99900503BA0 /* Foundation.framework in Frameworks */,
+				D8885C74156CD99900503BA0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8885C60156CD99900503BA0 = {
+			isa = PBXGroup;
+			children = (
+				D8885C75156CD99900503BA0 /* Prabir1 */,
+				D8885C6E156CD99900503BA0 /* Frameworks */,
+				D8885C6C156CD99900503BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8885C6C156CD99900503BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8885C6B156CD99900503BA0 /* Prabir1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8885C6E156CD99900503BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8885C6F156CD99900503BA0 /* UIKit.framework */,
+				D8885C71156CD99900503BA0 /* Foundation.framework */,
+				D8885C73156CD99900503BA0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8885C75156CD99900503BA0 /* Prabir1 */ = {
+			isa = PBXGroup;
+			children = (
+				D8885C7E156CD99A00503BA0 /* Prabir1AppDelegate.h */,
+				D8885C7F156CD99A00503BA0 /* Prabir1AppDelegate.m */,
+				D8885C81156CD99A00503BA0 /* Prabir1ViewController.h */,
+				D8885C82156CD99A00503BA0 /* Prabir1ViewController.m */,
+				D8885C84156CD99A00503BA0 /* Prabir1ViewController.xib */,
+				D8885C76156CD99900503BA0 /* Supporting Files */,
+			);
+			path = Prabir1;
+			sourceTree = "<group>";
+		};
+		D8885C76156CD99900503BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8885C77156CD99900503BA0 /* Prabir1-Info.plist */,
+				D8885C78156CD99900503BA0 /* InfoPlist.strings */,
+				D8885C7B156CD99A00503BA0 /* main.m */,
+				D8885C7D156CD99A00503BA0 /* Prabir1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8885C6A156CD99900503BA0 /* Prabir1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8885C89156CD99A00503BA0 /* Build configuration list for PBXNativeTarget "Prabir1" */;
+			buildPhases = (
+				D8885C67156CD99900503BA0 /* Sources */,
+				D8885C68156CD99900503BA0 /* Frameworks */,
+				D8885C69156CD99900503BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prabir1;
+			productName = Prabir1;
+			productReference = D8885C6B156CD99900503BA0 /* Prabir1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8885C62156CD99900503BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Prabir1;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D8885C65156CD99900503BA0 /* Build configuration list for PBXProject "Prabir1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8885C60156CD99900503BA0;
+			productRefGroup = D8885C6C156CD99900503BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8885C6A156CD99900503BA0 /* Prabir1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8885C69156CD99900503BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8885C7A156CD99900503BA0 /* InfoPlist.strings in Resources */,
+				D8885C86156CD99A00503BA0 /* Prabir1ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8885C67156CD99900503BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8885C7C156CD99A00503BA0 /* main.m in Sources */,
+				D8885C80156CD99A00503BA0 /* Prabir1AppDelegate.m in Sources */,
+				D8885C83156CD99A00503BA0 /* Prabir1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8885C78156CD99900503BA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8885C79156CD99900503BA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8885C84156CD99A00503BA0 /* Prabir1ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8885C85156CD99A00503BA0 /* en */,
+			);
+			name = Prabir1ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8885C87156CD99A00503BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8885C88156CD99A00503BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8885C8A156CD99A00503BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prabir1/Prabir1-Prefix.pch";
+				INFOPLIST_FILE = "Prabir1/Prabir1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8885C8B156CD99A00503BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prabir1/Prabir1-Prefix.pch";
+				INFOPLIST_FILE = "Prabir1/Prabir1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8885C65156CD99900503BA0 /* Build configuration list for PBXProject "Prabir1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8885C87156CD99A00503BA0 /* Debug */,
+				D8885C88156CD99A00503BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8885C89156CD99A00503BA0 /* Build configuration list for PBXNativeTarget "Prabir1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8885C8A156CD99A00503BA0 /* Debug */,
+				D8885C8B156CD99A00503BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8885C62156CD99900503BA0 /* Project object */;
+}
