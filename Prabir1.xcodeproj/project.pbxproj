@@ -22,13 +22,13 @@
 		D8885C6F156CD99900503BA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8885C71156CD99900503BA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8885C73156CD99900503BA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D8885C77156CD99900503BA0 /* Prabir1-Info.plist */ = {isa = PBXFileReference; path = "Prabir1-Info.plist"; sourceTree = "<group>"; };
+		D8885C77156CD99900503BA0 /* Prabir1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prabir1-Info.plist"; sourceTree = "<group>"; };
 		D8885C79156CD99900503BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8885C7B156CD99A00503BA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8885C7D156CD99A00503BA0 /* Prabir1-Prefix.pch */ = {isa = PBXFileReference; path = "Prabir1-Prefix.pch"; sourceTree = "<group>"; };
-		D8885C7E156CD99A00503BA0 /* Prabir1AppDelegate.h */ = {isa = PBXFileReference; path = Prabir1AppDelegate.h; sourceTree = "<group>"; };
+		D8885C7D156CD99A00503BA0 /* Prabir1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prabir1-Prefix.pch"; sourceTree = "<group>"; };
+		D8885C7E156CD99A00503BA0 /* Prabir1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prabir1AppDelegate.h; sourceTree = "<group>"; };
 		D8885C7F156CD99A00503BA0 /* Prabir1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prabir1AppDelegate.m; sourceTree = "<group>"; };
-		D8885C81156CD99A00503BA0 /* Prabir1ViewController.h */ = {isa = PBXFileReference; path = Prabir1ViewController.h; sourceTree = "<group>"; };
+		D8885C81156CD99A00503BA0 /* Prabir1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prabir1ViewController.h; sourceTree = "<group>"; };
 		D8885C82156CD99A00503BA0 /* Prabir1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prabir1ViewController.m; sourceTree = "<group>"; };
 		D8885C85156CD99A00503BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Prabir1ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
