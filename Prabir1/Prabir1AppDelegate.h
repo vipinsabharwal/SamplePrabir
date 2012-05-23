@@ -2,7 +2,7 @@
 //  Prabir1AppDelegate.h
 //  Prabir1
 //
-//  Created by Vipin Sambherwal on 23/05/12.
+//  Created by Vipin Sambherwal n 23/05/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
